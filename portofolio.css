@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,700;1,100&family=Questrial&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+}
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 35px;
+  background-color: #be3144;
+  padding: 18px 40px;
+  position: fixed;
+  width: 100vw;
+}
+#navbar a {
+  text-decoration: none;
+  font-size: 23px;
+  color: #E5E7EB;
+  font-weight: 300;
+}
+#welcome-section {
+  background-color: #1B2631 ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#welcome-section h1{
+  color: #E5E7EB;
+  font-size: 52px;
+}
+#welcome-section p{
+  color: #be3144;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 10%;
+}
+#projects-work {
+  background-color: #45567d;
+}
+.project-tile {
+  text-align: center;
+  padding: 100px 0 42px;
+  color: white;
+  text-decoration: underline solid 1px;
+  font-size: 26px;
+}
+.gallery {
+  border: 1px solid #2E4053;
+
+}
+.gallery img {
+  width: 100%;
+  height: auto;  
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #2E4053;
+  color: white;
+}
+.responsive {
+  padding: 20px 20px;
+  float: left;
+  width: 24.99999%;
+  background-color: #45567d;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+   
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button-link {
+  text-align: center;
+ 
+}
+.button {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.button-link a:hover {
+  background-color: #be3144;
+}
+#work {
+  background-color: #212F3C;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#work h1{
+  color: #E5E7EB;
+  font-size: 52px;
+  padding: 120px 0 5px;
+}
+#work p{
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  padding: 5px 0 50px;
+  
+}
+#work a {
+  color: white;
+  font-size: 22px;
+  
+  
+  padding: 30px 0 180px;
+}
+ hr { 
+   border-color:  #be3144;
+  
+  }
+#work div {
+   font-style: initial;
+   color: white;
+   padding-top: 30px;
+   
+}
